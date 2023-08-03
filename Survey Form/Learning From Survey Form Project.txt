@@ -1,0 +1,91 @@
+Learning From Survey Form Project- 
+
+=======================================HTML======================================
+
+1) <Form> = form is a container that contains input elements like text, 
+                  email, number, radio buttons, checkboxes, submit buttons, etc.
+
+2) Form element -----
+
+a) <label>: It defines label for <form> elements.
+
+Note = The for attribute in label specifies which form element a label is bound to.
+
+b)<input>: It is used to get input data from the form 
+           in various types such as text, password, email, etc by changing its type.
+
+c)<select>: It is used to create a drop-down list.
+
+d)<option>: It is used to define options in a drop-down list.
+
+e)<textarea> =  It is used to get input long text content. it has rows and cols attribute
+
+3) type atrribute = text, date, radio
+
+4)value attribute in input = The value attribute specifies the value of an <input> element.
+
+5)name attribute in input = The name attribute on an <input> tag assigns a name to that input element.
+
+Note = Input elements must have a name to participate in form submission.
+
+6)<hr> = for horizontal line.
+
+7) <table> =Table is an arrangement of data in rows and columns, 
+           or possibly in a more complex structure.
+
+a)<tr> = for table row
+b)<th> = for table heading
+c)<td> = for table data
+
+8) list = A list is a record of short pieces of related information or 
+          used to display the data or any information on web pages in the 
+          ordered or unordered form
+
+a)<ul> = unordered list
+b)<li> = list item.
+
+
+
+==================================CSS================================================
+
+1) margin  = Margins are used to create space around elements, outside of any defined borders.
+2) padding = Padding is used to create space around an element's content, inside of any defined borde
+3) font-size = how big and small text will be.
+4) color    = color of text
+5) width    = width of content
+6) text-align  = The text-align property specifies the horizontal alignment of text in an element.
+
+Note = text-align: left|right|center|justify.
+
+7) background-color 
+8) border  =The CSS border is a shorthand property used to set the border on an element.
+
+Note = border-style border-color border-width border-radius
+
+9) cursor = The cursor property specifies the mouse cursor to be displayed when pointing over an element.
+
+Note = there are many values we use pointer here. 
+
+10) outline = An outline is a line that is drawn around elements, OUTSIDE the borders,
+              to make the element "stand out". set value zero for no outline.
+
+Note = The outline property is a shorthand property for setting the following individual outline properties:
+outline-width outline-style (required) outline-color
+
+12) border-bottom = 2px solid black;
+13) list-style-type = The list-style-type specifies the type of list-item marker in a list.
+
+Note = there are many some are - circle, square, disc etc
+
+14) :nth-child(n) = selector matches every element that is the nth child of its parent.
+                    n can be a number (odd, even) or formula(like an+b).
+
+
+=======================================Functionality=====================================
+
+1)A Likert scale is a rating scale used to measure opinions, attitudes, or behaviors.
+create it by using the <table> and <input type=radio>
+
+
+
+

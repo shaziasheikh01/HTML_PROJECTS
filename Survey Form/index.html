@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Survey Form</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        h1 {
+            margin: 15px 0 50px 0;
+        }
+
+        form {
+            margin: 0 70px;
+        }
+
+        label {
+            font-size: 23px;
+            color: rgb(59, 57, 57);
+        }
+
+        input {
+            font-size: 23px;
+            margin: 25px 0;
+            color: rgb(59, 57, 57);
+        }
+
+        p {
+            margin: 0;
+            padding: 0;
+        }
+
+        select {
+            width: 30%;
+            font-size: 20px;
+            color: rgb(59, 57, 57);
+            margin: 15px 0;
+        }
+
+        table {
+            font-size: 25px;
+            margin: 0 70px;
+        }
+
+        #table tr:nth-child(even) {
+            background-color: rgb(234, 231, 231);
+        }
+
+        th {
+            margin: auto;
+            text-align: center;
+            padding: 0 10px;
+        }
+
+        tbody>tr>td {
+            text-align: center;
+        }
+
+        form {
+            margin: 0 70px;
+        }
+
+        li {
+            font-size: 20px;
+
+        }
+
+        h2 {
+            margin: 0 70px 10px 70px;
+        }
+
+        button{
+            background-color: rgb(125, 125, 158); 
+            font-size: 20px; 
+            padding: 15px 60px;
+             margin: 10px 600px 30px 600px; 
+             border: none; 
+             border-radius: 5px; 
+             cursor: pointer;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align:center;
+    font-size: 50px; 
+    background: rgb(188, 188, 216);
+    padding: 40px 40px;">STUDENT SURVEY</h1>
+
+    <form>
+        <label for="schoolName">School Name</label><br>
+        <input type="text" id="schoolName" name="schoolName" style="border: 0;
+        outline: 0;
+        border-bottom: 2px solid black;
+        width: 100%;">
+        <label>Student Name</label><br>
+        <label for="fName">First Name :
+            <input type="text" id="fName" name="fName"></label>
+        <label for="LName">Last Name :
+            <input type="text" id="LName" name="LName"></label>
+        <p>
+            <label>Date :
+                <input type="date" name="Date"></label>
+        </p>
+        <p>
+            <label>How long have you been student here?
+                <br>
+                <select name="years">
+                    <option>Please Select</option>
+                    <option>From 1 years</option>
+                    <option>From 2 years</option>
+                    <option>From 3 years</option>
+                    <option>From 4 years</option>
+                    <option>From 5 years</option>
+                    <option>From 6 years</option>
+                </select>
+            </label>
+        </p>
+        <hr style="margin: 40px 0;">
+    </form>
+
+    <h2>Please rate the following aspects of your education.</h2>
+
+    <table id="table">
+        <tr>
+            <th></th>
+            <th>Strongly Disagree</th>
+            <th>Disagree</th>
+            <th>Neutral</th>
+            <th>Agree</th>
+            <th>Strongly Agree</th>
+        </tr>
+
+        <h3 style="color:rgb(59, 57, 57); margin-top: 50px; font-size: 20px; margin: 40px 70px 0 70px;">MATERIALS</h3>
+        <tr>
+            <td style="text-align: left;">The objectives and requirements for the classes were clearly stated.</td>
+            <td><input type="radio" value="Strongly Disagree" name="objectives and requirements" /></td>
+            <td><input type="radio" value="Disagree" name="objectives and requirements" /></td>
+            <td><input type="radio" value="Neutral" name="objectives and requirements" /></td>
+            <td><input type="radio" value="Agree" name="objectives and requirements" /></td>
+            <td><input type="radio" value="Strongly Agree" name="objectives and requirements" /></td>
+        </tr>
+
+        <tr>
+            <td style="text-align: left;">The textbooks and learning materials were relevant and useful.</td>
+            <td><input type="radio" value="Strongly Disagree" name="textbooks useful" /></td>
+            <td><input type="radio" value="Disagree" name="textbooks useful" /></td>
+            <td><input type="radio" value="Neutral" name="textbooks useful" /></td>
+            <td><input type="radio" value="Agree" name="textbooks useful" /></td>
+            <td><input type="radio" value="Strongly Agree" name="textbooks useful" /></td>
+        </tr>
+
+        <tr>
+            <td style="text-align: left;">Tests and assignments were based on material covered in each class.</td>
+            <td><input type="radio" value="Strongly Disagree" name="test and assignments useful" /></td>
+            <td><input type="radio" value="Disagree" name="test and assignments useful" /></td>
+            <td><input type="radio" value="Neutral" name="test and assignments useful" /></td>
+            <td><input type="radio" value="Agree" name="test and assignments useful" /></td>
+            <td><input type="radio" value="Strongly Agree" name="test and assignments useful" /></td>
+        </tr>
+
+    </table>
+
+    <table id="table">
+        <tr>
+            <th></th>
+            <th>Strongly Disagree</th>
+            <th>Disagree</th>
+            <th>Neutral</th>
+            <th>Agree</th>
+            <th>Strongly Agree</th>
+        </tr>
+
+        <h3 style="color:rgb(59, 57, 57); margin-top: 50px; font-size: 20px;  margin: 40px 70px 0 70px">INSTRUCTIONS
+        </h3>
+        <tr>
+            <td style="text-align: left;">The instructors were qualified to teach these classes.</td>
+            <td><input type="radio" value="Strongly Disagree" name="Instructions1" /></td>
+            <td><input type="radio" value="Disagree" name="Instructions1" /></td>
+            <td><input type="radio" value="Neutral" name="Instructions1" /></td>
+            <td><input type="radio" value="Agree" name="Instructions1" /></td>
+            <td><input type="radio" value="Strongly Agree" name="Instructions1" /></td>
+        </tr>
+
+        <tr>
+            <td style="text-align: left;">The instructors demonstrated enthusiasm for the subject matter.</td>
+            <td><input type="radio" value="Strongly Disagree" name="Instructions2" /></td>
+            <td><input type="radio" value="Disagree" name="Instructions2" /></td>
+            <td><input type="radio" value="Neutral" name="Instructions2" /></td>
+            <td><input type="radio" value="Agree" name="Instructions2" /></td>
+            <td><input type="radio" value="Strongly Agree" name="Instructions2" /></td>
+        </tr>
+
+        <tr>
+            <td style="text-align: left;">The instructors were available and helpful to students outside of class.</td>
+            <td><input type="radio" value="Strongly Disagree" name="Instructions3" /></td>
+            <td><input type="radio" value="Disagree" name="Instructions3" /></td>
+            <td><input type="radio" value="Neutral" name="Instructions3" /></td>
+            <td><input type="radio" value="Agree" name="Instructions3" /></td>
+            <td><input type="radio" value="Strongly Agree" name="Instructions3" /></td>
+        </tr>
+
+    </table>
+
+    <table id="table">
+        <tr>
+            <th></th>
+            <th>Strongly Disagree</th>
+            <th>Disagree</th>
+            <th>Neutral</th>
+            <th>Agree</th>
+            <th>Strongly Agree</th>
+        </tr>
+
+        <h3 style="color:rgb(59, 57, 57); margin-top: 50px; font-size: 20px; margin: 40px 70px 20px 70px;">SCHOOL
+            ENVIRONMENT</h3>
+        <tr>
+            <td style="text-align: left;">The physical classroom environments were clean and comfortable.</td>
+            <td><input type="radio" value="Strongly Disagree" name="Environment1" /></td>
+            <td><input type="radio" value="Disagree" name="Environment1" /></td>
+            <td><input type="radio" value="Neutral" name="Environment1" /></td>
+            <td><input type="radio" value="Agree" name="Environment1" /></td>
+            <td><input type="radio" value="Strongly Agree" name="Environment1" /></td>
+        </tr>
+
+        <tr>
+            <td style="text-align: left;">Library and on-site computers consistently made available..</td>
+            <td><input type="radio" value="Strongly Disagree" name="Environment2" /></td>
+            <td><input type="radio" value="Disagree" name="Environment2" /></td>
+            <td><input type="radio" value="Neutral" name="Environment2" /></td>
+            <td><input type="radio" value="Agree" name="Environment2" /></td>
+            <td><input type="radio" value="Strongly Agree" name="Environment2" /></td>
+        </tr>
+
+        <tr>
+            <td style="text-align: left;">The common spaces were clean and comfortable.</td>
+            <td><input type="radio" value="Strongly Disagree" name="Environment3" /></td>
+            <td><input type="radio" value="Disagree" name="Environment3" /></td>
+            <td><input type="radio" value="Neutral" name="Environment3" /></td>
+            <td><input type="radio" value="Agree" name="Environment3" /></td>
+            <td><input type="radio" value="Strongly Agree" name="Environment3" /></td>
+        </tr>
+
+
+    </table>
+
+    <hr style="margin: 40px 70px;">
+
+    <h2>How likely are you to recommend our school to a friend or colleague?</h2>
+
+    <form>
+        <ul style="list-style-type: none;">
+            <li>
+                <input type="radio" name="recommened" value="Very likely"
+                    style="margin-right: 12px; margin-bottom: 0;">Very likely
+            </li>
+            <li>
+                <input type="radio" name="recommened" value="Somewhat likely"
+                    style="margin-right: 12px; margin-bottom: 0">Somewhat likely
+            </li>
+            <li>
+                <input type="radio" name="recommened" value="Unsure" style="margin-right: 12px; margin-bottom: 0">Unsure
+            </li>
+            <li>
+                <input type="radio" name="recommened" value="Not very likely"
+                    style="margin-right: 12px; margin-bottom: 0">Not very likely
+            </li>
+            <li>
+                <input type="radio" name="recommened" value="Not likely"
+                    style="margin-right: 12px; margin-bottom: 0">Not likely
+            </li>
+        </ul>
+
+        <h2 style="margin: 40px 0 10px 0;">If not, Why?</h2>
+        <textarea name="ifNot" rows="10" cols="80">
+    </textarea>
+
+        <h2 style="margin: 40px 0 10px 0;">What could we do to increase your level of satisfaction?</h2>
+        <textarea name="ForSatisfaction" rows="10" cols="80">
+    </textarea>
+
+        <h2 style="margin: 40px 0 10px 0;">Additional comments</h2>
+        <textarea name="Commnents" rows="10" cols="80">
+    </textarea>
+        <hr style="margin: 40px 0;">
+        <p><button type="submit">Submit</button>
+        </p>
+    </form>
+
+
+
+</body>
+
+</html>
