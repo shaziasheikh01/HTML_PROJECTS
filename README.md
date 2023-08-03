@@ -8,4 +8,4 @@ Here are some of the most popular HTML projects with source code and text files 
 ## Project 1 
 * **Survey Form**
 
-<a href ="https://shaziasheikh01.github.io/HTML_PROJECTS/Survey%20Form/index.html"><strong>Live Demo</strong></a>
+     <a href ="https://shaziasheikh01.github.io/HTML_PROJECTS/Survey%20Form/index.html"><strong> ➥ Live Demo</strong></a>
